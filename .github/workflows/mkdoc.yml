@@ -9,9 +9,6 @@ on:
 
 jobs:
   build:
-    permissions:
-      contents: write
-      id-token: write
     runs-on: ubuntu-latest
     steps:
 
@@ -30,8 +27,6 @@ jobs:
         pip install -r docs/build/requirements.txt
 
     - name: Build documentation
-      env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: |
         mkdocs build --clean
         mkdocs --version
@@ -49,7 +44,6 @@ jobs:
   deploy:
     needs: build
     permissions:
-      contents: write
       id-token: write
       pages: write
     environment:
