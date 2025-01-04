@@ -1,0 +1,19 @@
+site_name: Code Secure
+site_url: https://0xdu.github.io/swagger-xss/
+site_author: Duo
+site_description: >-
+  Code Secure
+repo_name: Code Secure
+repo_url: https://github.com/0xdu/swagger-xss
+
+copyright: Copyright &copy; 2024 Duo
+
+theme:
+  name: material
+  highlightjs: true
+  hljs_languages:
+  - yaml
+
+nav:
+- Home: index.md
+- About: about.md
