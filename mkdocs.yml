@@ -36,8 +36,3 @@ nav:
     - SAST: scanner/sast.md
     - SCA: scanner/sca.md
     - Secret Detection: scanner/secret_detection.md
-
-plugins:
-- search:
-  separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-- macros
